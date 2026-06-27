@@ -139,6 +139,17 @@ put brown cylinder down,put_down
 put grey sphere down,put_down
 put violet cone down,put_down
 put b1 down,put_down
+put down the red square,put_down
+put down blue cube,put_down
+put down green triangle,put_down
+put down yellow circle,put_down
+put down pink rectangle,put_down
+put down orange pentagon,put_down
+put down small block,put_down
+put down large square,put_down
+put down c1,put_down
+put down object b2,put_down
+put down the item,put_down
 drop c2,put_down
 drop the blue square,put_down
 drop r1,put_down
