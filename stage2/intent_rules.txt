@@ -1,0 +1,13 @@
+1. pick_up
+verb: grab / take / lift / pick up
+what it does: moves object from world → crane (held state)
+
+
+2. PLACE (object → anything[object/location])
+verb: move, put, stack
+what it does: places held object on a target
+
+
+3. put_down
+verb: put down / drop / release
+what it does: removes object from crane → onto previous position (if specified: location)
