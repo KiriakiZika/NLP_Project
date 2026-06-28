@@ -40,7 +40,7 @@ grab the violet cone,pick_up
 take b1,pick_up
 lift s3,pick_up
 pick up the dark pyramid,pick_up
-grab the tiny hexagon,pick_up
+grab the tiny pentagon,pick_up
 take the massive block,pick_up
 lift r3,pick_up
 pick up c7,pick_up
@@ -52,13 +52,13 @@ grab the silver ring,pick_up
 take c8,pick_up
 lift r4,pick_up
 pick up b5,pick_up
-grab the teal prism,pick_up
-take the lime wedge,pick_up
+grab the teal pentagon,pick_up
+take the lime pentagon,pick_up
 lift p3,pick_up
-pick up the navy box,pick_up
+pick up the navy pentagon,pick_up
 grab r5,pick_up
 take l5,pick_up
-lift the olive oval,pick_up
+lift the olive pentagon,pick_up
 put c1 on b2,place
 put red square on blue square,place
 put c2 on c3,place
@@ -81,7 +81,7 @@ put b4 in c7,place
 put teal prism in navy box,place
 put s4 in p3,place
 put r4 in l5,place
-put grey sphere in violet cone,place
+put grey sphere in violet pentagon,place
 put lime wedge in olive oval,place
 move c4 on c5,place
 move blue circle on green square,place
@@ -96,17 +96,17 @@ move s2 on l1,place
 move pink rectangle on yellow pentagon,place
 move r1 on c3,place
 move c1 in b1,place
-move red square in blue box,place
+move red square in blue pentagon,place
 move c3 in p1,place
 move b5 in c6,place
-move small cube in large bin,place
+move small cube in large pentagon,place
 move r3 in s2,place
-move green triangle in yellow basket,place
-move orange circle in purple tray,place
+move green triangle in yellow pentagon,place
+move orange circle in purple pentagon,place
 move l2 in c2,place
 move l3 in p2,place
-move tiny hexagon in dark pyramid,place
-move massive block in grey sphere,place
+move tiny hexagon in dark pentagon,place
+move massive block in grey pentagon,place
 stack l1 on c4,place
 stack s1 on s2,place
 stack green triangle on yellow square,place
@@ -161,15 +161,15 @@ drop p1,put_down
 drop c3,put_down
 drop c4,put_down
 drop s3,put_down
-drop dark pyramid,put_down
-drop tiny hexagon,put_down
+drop dark pentagon,put_down
+drop tiny pentagon,put_down
 drop massive block,put_down
 drop r3,put_down
 drop c7,put_down
 drop b4,put_down
 drop l4,put_down
 drop s4,put_down
-drop gold star,put_down
+drop gold square,put_down
 release object c1,put_down
 release c3,put_down
 release c4,put_down
@@ -179,14 +179,14 @@ release purple triangle,put_down
 release r2,put_down
 release c2,put_down
 release l2,put_down
-release silver ring,put_down
+release silver pentagon,put_down
 release c8,put_down
 release r4,put_down
 release b5,put_down
-release teal prism,put_down
-release lime wedge,put_down
+release teal pentagon,put_down
+release lime pentagon,put_down
 release p3,put_down
-release navy box,put_down
+release navy pentagon,put_down
 release r5,put_down
 release l5,put_down
-release olive oval,put_down
+release olive pentagon,put_down
