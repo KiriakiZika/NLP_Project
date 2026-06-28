@@ -4,7 +4,7 @@ what it does: moves object from world → crane (held state)
 
 
 2. PLACE (object → anything[object/location])
-verb: move, put, stack
+verb: move on/in, put on/in, stack
 what it does: places held object on a target
 
 

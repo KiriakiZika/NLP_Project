@@ -59,21 +59,46 @@ pick up the navy pentagon,pick_up
 grab r5,pick_up
 take l5,pick_up
 lift the olive pentagon,pick_up
+
 put c1 on b2,place
 put red square on blue square,place
+put red square on blue triangle,place
+put red square on blue rectangle,place
+put red square on blue circle,place
+put red square on blue pentagon,place
+put red triangle on blue square,place
+put red triangle on blue triangle,place
+put red triangle on blue rectangle,place
+put red triangle on blue circle,place
+put red triangle on blue pentagon,place
+put red rectangle on blue square,place
+put red rectangle on blue triangle,place
+put red rectangle on blue rectangle,place
+put red rectangle on blue circle,place
+put red rectangle on blue pentagon,place
+put red circle on blue square,place
+put red circle on blue triangle,place
+put red circle on blue rectangle,place
+put red circle on blue circle,place
+put red circle on blue pentagon,place
+put red pentagon on blue square,place
+put red pentagon on blue triangle,place
+put red pentagon on blue rectangle,place
+put red pentagon on blue circle,place
+put red pentagon on blue pentagon,place
 put c2 on c3,place
 put b2 on p1,place
 put c1 on r1,place
 put yellow square on c4,place
-put orange square on b3,place
+put orange circle on b3,place
 put c2 on l3,place
 put b1 on s3,place
-put magenta block on brown cylinder,place
+put magenta rectangle on brown rectangle,place
 put l4 on r3,place
-put gold star on silver ring,place
+put gold circle on silver circle,place
 put c5 in p2,place
 put purple triangle in cyan circle,place
-put white cube in black square,place
+put white triangle in black square,place
 put c3 in l1,place
 put b2 in c2,place
 put c5 in b2,place
@@ -81,13 +106,13 @@ put b4 in c7,place
 put teal prism in navy box,place
 put s4 in p3,place
 put r4 in l5,place
-put grey sphere in violet pentagon,place
-put lime wedge in olive oval,place
+put grey triangle in violet pentagon,place
+put lime triangle in olive triangle,place
 move c4 on c5,place
 move blue circle on green square,place
 move c2 on r2,place
 move c6 on b1,place
-move small square on large square,place
+move small pentagon on large square,place
 move r2 on s1,place
 move c1 on c2,place
 move green square on red square,place
@@ -119,6 +144,7 @@ stack c5 on b2,place
 stack c2 on b4,place
 stack r4 on s4,place
 stack l4 on p3,place
+
 put c1 down,put_down
 put the red square down,put_down
 put b2 down,put_down
