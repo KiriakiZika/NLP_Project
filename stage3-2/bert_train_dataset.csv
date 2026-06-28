@@ -1,0 +1,123 @@
+tokens,labels
+pick red square,O B-OBJ I-OBJ
+grab blue triangle,O B-OBJ I-OBJ
+lift green circle,O B-OBJ I-OBJ
+take yellow block,O B-OBJ I-OBJ
+move pink square,O B-OBJ I-OBJ
+
+put red square down,O B-OBJ I-OBJ O
+drop blue block,O B-OBJ I-OBJ
+release green triangle,O B-OBJ I-OBJ
+let go of yellow square,O O O B-OBJ I-OBJ
+stop holding pink cube,O O B-OBJ I-OBJ
+
+put red square on blue box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green triangle on yellow block,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack blue cube on red cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+place pink square on green triangle,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+
+put red square in area a,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move blue cube in area b,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+place green block in cargo ship,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+
+put red square under blue box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green triangle under yellow block,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+place blue cube under red square,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+
+put small red square on blue box,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST
+move large green triangle in area a,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST
+place medium yellow block under red cube,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST
+
+move red square to area a,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+put blue cube in area b,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+send green triangle to cargo ship,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+
+please put the red square on the blue box,O O O B-OBJ I-OBJ B-REL O B-DEST I-DEST
+can you move the green triangle in area a,O O O O B-OBJ I-OBJ B-REL B-DEST I-DEST
+now stack the blue cube on red cube,O O O B-OBJ I-OBJ B-REL B-DEST I-DEST
+gently place small yellow block under blue box,O O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST
+
+put uh red square on blue box,O O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move red square um in area a,O B-OBJ I-OBJ O B-REL B-DEST I-DEST
+stack red cube like on blue cube,O B-OBJ I-OBJ O B-REL B-DEST I-DEST
+
+grab c1,O B-OBJ
+take c2,O B-OBJ
+lift b1,O B-OBJ
+pick up b2,O O B-OBJ
+grab c3,O B-OBJ
+take l1,O B-OBJ
+lift r2,O B-OBJ
+
+put c1 down,O B-OBJ O
+drop b2,O B-OBJ
+release c3,O B-OBJ
+put b1 down,O B-OBJ O
+drop c2,O B-OBJ
+release r1,O B-OBJ
+
+put c1 on b1,O B-OBJ B-REL B-DEST
+move c2 on b2,O B-OBJ B-REL B-DEST
+stack c3 on b3,O B-OBJ B-REL B-DEST
+put c4 on c1,O B-OBJ B-REL B-DEST
+move b1 on c2,O B-OBJ B-REL B-DEST
+stack r2 on l1,O B-OBJ B-REL B-DEST
+
+put c1 in b1,O B-OBJ B-REL B-DEST
+move c2 in c3,O B-OBJ B-REL B-DEST
+stack b2 in l1,O B-OBJ B-REL B-DEST
+put r1 in b2,O B-OBJ B-REL B-DEST
+
+put red square on blue box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green triangle on yellow block,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack blue cube on red cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+
+please put c1 on b1,O O B-OBJ B-REL B-DEST
+can you move c2 on c3,O O O B-OBJ B-REL B-DEST
+now stack b1 on c2,O O B-OBJ B-REL B-DEST
+gently put c3 on b2,O O B-OBJ B-REL B-DEST
+
+uh put c1 on b1,O O B-OBJ B-REL B-DEST
+move um c2 on b2,O O B-OBJ B-REL B-DEST
+stack like c3 on c4,O O B-OBJ B-REL B-DEST
+put c1 uh on b1,O B-OBJ O B-REL B-DEST
+
+put c1 on b1,O B-OBJ B-REL B-DEST
+move c2 on b2,O B-OBJ B-REL B-DEST
+stack c3 on c4,O B-OBJ B-REL B-DEST
+place red square on blue box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green triangle on yellow cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+put small blue block on large red block,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+
+put c1 in box,O B-OBJ B-REL B-DEST
+move c2 into container,O B-OBJ B-REL B-DEST
+place c3 inside area a,O B-OBJ B-REL B-DEST I-DEST
+stack c4 in cargo ship,O B-OBJ B-REL B-DEST I-DEST
+put red cube into zone b,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move blue block in storage area,O B-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+
+put c1 onto table,O B-OBJ B-REL B-DEST
+move c2 onto desk,O B-OBJ B-REL B-DEST
+place c3 onto wooden shelf,O B-OBJ B-REL B-DEST I-DEST
+stack c4 onto metal platform,O B-OBJ B-REL B-DEST I-DEST
+put green box onto cargo platform,O B-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+
+move c1 under table,O B-OBJ B-REL B-DEST
+put c2 under desk,O B-OBJ B-REL B-DEST
+place red cube under blue shelf,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack green block under metal table,O B-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+
+move c1 to area a,O B-OBJ B-REL B-DEST I-DEST
+put c2 to area b,O B-OBJ B-REL B-DEST I-DEST
+place c3 to cargo ship,O B-OBJ B-REL B-DEST I-DEST
+stack c4 to storage zone,O B-OBJ B-REL B-DEST I-DEST I-DEST
+
+move small cube on b1,O B-OBJ I-OBJ B-REL B-DEST
+put large block in b2,O B-OBJ I-OBJ B-REL B-DEST
+place red triangle onto b3,O B-OBJ I-OBJ B-REL B-DEST
+stack blue square into b4,O B-OBJ I-OBJ B-REL B-DEST
+
+move c1 on area a,O B-OBJ B-REL B-DEST I-DEST
+put c2 in area b,O B-OBJ B-REL B-DEST I-DEST
+stack c3 onto cargo ship,O B-OBJ B-REL B-DEST I-DEST
+place c4 into storage bay,O B-OBJ B-REL B-DEST I-DEST I-DEST

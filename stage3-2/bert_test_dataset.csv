@@ -1,0 +1,48 @@
+tokens,labels
+put c1 on b1,O B-OBJ B-REL B-DEST
+move c2 on b2,O B-OBJ B-REL B-DEST
+stack c3 on c4,O B-OBJ B-REL B-DEST
+grab c1,O B-OBJ
+take b2,O B-OBJ
+lift c3,O B-OBJ
+drop c1,O B-OBJ
+release c2,O B-OBJ
+
+put red square on blue box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green triangle on yellow block,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack small blue cube on large red cube,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+
+please put c1 on b1,O O B-OBJ B-REL B-DEST
+can you move c2 on b2,O O O B-OBJ B-REL B-DEST
+kindly stack c3 on c4,O O B-OBJ B-REL B-DEST
+
+uh put c1 on b1,O O B-OBJ B-REL B-DEST
+like move c2 on b2,O O B-OBJ B-REL B-DEST
+hmm stack c3 on c4,O O B-OBJ B-REL B-DEST
+
+put c1 b1,O B-OBJ B-DEST
+move c2 b2,O B-OBJ B-DEST
+stack c3 c4,O B-OBJ B-DEST
+
+on b1 put c1,B-REL B-DEST O B-OBJ
+b2 move c2,O B-DEST B-OBJ
+c3 stack on c4,B-OBJ O B-REL B-DEST
+
+aaaaaa,O
+wwwwww,O
+qwerty,O
+asdfgh,O
+zzzzzz,O
+
+put keyboard on desk,O B-OBJ B-REL B-DEST
+move cup on table,O B-OBJ B-REL B-DEST
+stack book on shelf,O B-OBJ B-REL B-DEST
+
+put small red square on large blue box,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+move big green triangle on tiny yellow cube,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+
+c1,O B-OBJ
+b1,O B-DEST
+on,O B-REL
+put,O
+move,O

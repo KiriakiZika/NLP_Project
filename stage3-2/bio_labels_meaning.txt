@@ -1,0 +1,37 @@
+O (Outside)
+This word is NOT important for structure.
+Examples:
+verbs
+filler words
+grammar words
+
+2. B-OBJ (Beginning of Object)
+First word of the object being moved
+
+3. I-OBJ (Inside Object)
+Continuation of the object name
+
+4. B-DEST (Beginning of Destination)
+First word of where the object is going
+
+5. I-DEST (Inside Destination)
+Continuation of the destination
+
+6. B-REL (Relation)
+Words that describe HOW the object is placed
+Examples:
+on
+in
+under
+onto
+
+
+
+Word	Label
+put	O
+small	B-OBJ
+red	I-OBJ
+square	I-OBJ
+on	B-REL
+blue	B-DEST
+box	I-DEST
