@@ -1,0 +1,95 @@
+text,intent
+please grab the red square,pick_up
+can you pick up c1,pick_up
+take that red thing near b2,pick_up
+lift whatever is on the left,pick_up
+um grab the blue cube,pick_up
+could you pick up the object near c3,pick_up
+take the thing next to the box,pick_up
+pick up whatever you see,pick_up
+grab the small red item,pick_up
+lift the object closest to you,pick_up
+i want you to pick up c2,pick_up
+just grab b1,pick_up
+take that one,pick_up
+please lift c4,pick_up
+can you take the red object,pick_up
+pick up the thing on the right,pick_up
+grab whatever is in front,pick_up
+take the blue thing,pick_up
+lift that item,pick_up
+pick up something near c5,pick_up
+
+put c1 on b2,place
+please put c1 on b2,place
+move the red square onto the blue box,place
+stack c1 on top of b2,place
+can you place the object on b2,place
+put that thing onto the left box,place
+move whatever you're holding onto c3,place
+place the red item on the blue object,place
+put the cube over the box,place
+stack the red square onto the blue square,place
+move c2 onto p1,place
+put the thing into the box,place
+place whatever is in your hand on b3,place
+can you stack c5 on c6,place
+move the item onto r1,place
+put red square on blue circle,place
+place the object near b2 onto c3,place
+stack the cube on top of the pyramid,place
+move that thing onto s2,place
+put c1 over b1,place
+
+put c1 down,put_down
+please put the red square down,put_down
+drop whatever you're holding,put_down
+release the object in your hand,put_down
+can you put that down,put_down
+just drop it,put_down
+put the item down on the ground,put_down
+release c2,put_down
+drop the blue square,put_down
+put down the thing you're holding,put_down
+let go of c3,put_down
+release whatever is held,put_down
+drop that item near you,put_down
+put it down now,put_down
+stop holding and drop it,put_down
+release the red object,put_down
+drop c5,put_down
+put down c6,put_down
+let go of b2,put_down
+release the cube,put_down
+
+move c1 to b2,place
+move the red square near the blue box,place
+shift c2 onto p1,place
+relocate the cube onto the table,place
+transfer c3 to r1,place
+move the object from here to there,place
+push c4 onto s2,place
+slide the red block onto b3,place
+move whatever is in your hand onto c5,place
+drag the item onto b1,place
+move the thing near c2 onto p2,place
+shift the cube onto the platform,place
+move red square over blue square,place
+relocate c6 onto l1,place
+move the object to the box,place
+
+stack c1 on b2,place
+stack the red square on the blue box,place
+pile c2 onto c3,place
+build a stack using c1 and b2,place
+stack the object on top of the box,place
+stack red square onto blue square,place
+pile the cubes together,place
+stack whatever you're holding on b3,place
+stack c4 on top of c5,place
+stack the item onto r2,place
+build a tower with c1 on b2,place
+stack the red block on blue block,place
+pile the object onto the platform,place
+stack c6 onto s1,place
+stack the cube carefully on p1,place

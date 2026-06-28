@@ -31,7 +31,7 @@ print("Type a command (or 'exit' to quit)\n")
 while True:
     user_input = input(">> ")
 
-    if user_input.lower() == "exit":
+    if user_input.lower() == "q":
         break
 
     intent, conf = predict_intent(user_input)

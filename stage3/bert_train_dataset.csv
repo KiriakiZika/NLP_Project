@@ -1,0 +1,245 @@
+text,intent
+pick up the red square,pick_up
+grab the red square,pick_up
+take the red square,pick_up
+lift the red square,pick_up
+please pick up the red square,pick_up
+can you grab the red square,pick_up
+pick up b2,pick_up
+grab c1,pick_up
+take c2,pick_up
+lift l1,pick_up
+pick up s1,pick_up
+grab r1,pick_up
+take the yellow pentagon,pick_up
+lift the pink rectangle,pick_up
+grab the orange circle,pick_up
+pick up the green square,pick_up
+take the blue circle,pick_up
+lift the large triangle,pick_up
+pick up the small blue square,pick_up
+grab the purple triangle,pick_up
+take the cyan circle,pick_up
+lift the black square,pick_up
+pick up the white cube,pick_up
+grab object c6,pick_up
+take p1,pick_up
+lift p2,pick_up
+pick up l2,pick_up
+grab l3,pick_up
+take the magenta block,pick_up
+lift the brown cylinder,pick_up
+pick up the grey sphere,pick_up
+grab the violet cone,pick_up
+take b1,pick_up
+lift s3,pick_up
+pick up the dark pyramid,pick_up
+grab the tiny pentagon,pick_up
+take the massive block,pick_up
+lift r3,pick_up
+pick up c7,pick_up
+grab b4,pick_up
+take l4,pick_up
+lift s4,pick_up
+pick up the gold star,pick_up
+grab the silver ring,pick_up
+take c8,pick_up
+lift r4,pick_up
+pick up b5,pick_up
+grab the teal pentagon,pick_up
+take the lime pentagon,pick_up
+lift p3,pick_up
+pick up the navy pentagon,pick_up
+grab r5,pick_up
+take l5,pick_up
+lift the olive pentagon,pick_up
+
+put c1 on b2,place
+place c1 on b2,place
+move c1 onto b2,place
+stack c1 on b2,place
+put the red square on the blue box,place
+place the red square on the blue box,place
+move the red square onto the blue box,place
+stack the red square on the blue box,place
+put red square on blue square,place
+put red square on blue triangle,place
+put red square on blue rectangle,place
+put red square on blue circle,place
+put red square on blue pentagon,place
+put red triangle on blue square,place
+put red rectangle on blue square,place
+put red circle on blue square,place
+put red pentagon on blue square,place
+move red square on blue square,place
+stack red square on blue square,place
+place red square on blue square,place
+put c2 on c3,place
+move c2 onto c3,place
+stack c2 on c3,place
+put b2 on p1,place
+move b2 onto p1,place
+stack b2 on p1,place
+put c1 on r1,place
+move c1 onto r1,place
+stack c1 on r1,place
+put yellow square on c4,place
+put orange circle on b3,place
+put c2 on l3,place
+put b1 on s3,place
+put magenta rectangle on brown rectangle,place
+put l4 on r3,place
+put gold circle on silver circle,place
+put c5 in p2,place
+move c5 into p2,place
+stack c5 in p2,place
+put purple triangle in cyan circle,place
+put white triangle in black square,place
+put c3 in l1,place
+move c3 into l1,place
+stack c3 in l1,place
+put b2 in c2,place
+put c5 in b2,place
+put b4 in c7,place
+put teal prism in navy box,place
+put s4 in p3,place
+put r4 in l5,place
+put grey triangle in violet pentagon,place
+put lime triangle in olive triangle,place
+move c4 on c5,place
+move c2 on r2,place
+move c6 on b1,place
+move small pentagon on large square,place
+move r2 on s1,place
+move c1 on c2,place
+move green square on red square,place
+move b3 on p2,place
+move s2 on l1,place
+move pink rectangle on yellow pentagon,place
+move r1 on c3,place
+move c1 in b1,place
+move red square in blue pentagon,place
+move c3 in p1,place
+move b5 in c6,place
+move small cube in large pentagon,place
+move r3 in s2,place
+move green triangle in yellow pentagon,place
+move orange circle in purple pentagon,place
+move l2 in c2,place
+move l3 in p2,place
+move tiny hexagon in dark pentagon,place
+move massive block in grey pentagon,place
+stack l1 on c4,place
+stack s1 on s2,place
+stack green triangle on yellow square,place
+stack c3 on b3,place
+stack r1 on l2,place
+stack c4 on r1,place
+stack c6 on s2,place
+stack blue square on p1,place
+stack c5 on b2,place
+stack c2 on b4,place
+stack r4 on s4,place
+stack l4 on p3,place
+
+put c1 down,put_down
+put the red square down,put_down
+put b2 down,put_down
+put l1 down,put_down
+please put c5 down,put_down
+can you put b3 down,put_down
+drop c2,put_down
+drop the blue square,put_down
+drop r1,put_down
+drop s1,put_down
+drop orange circle,put_down
+drop black square,put_down
+drop cyan circle,put_down
+drop p1,put_down
+drop c3,put_down
+drop c4,put_down
+drop s3,put_down
+drop massive block,put_down
+release object c1,put_down
+release c3,put_down
+release c4,put_down
+release green triangle,put_down
+release blue circle,put_down
+release purple triangle,put_down
+release r2,put_down
+release c2,put_down
+release l2,put_down
+release silver pentagon,put_down
+release c8,put_down
+release r4,put_down
+release b5,put_down
+release teal pentagon,put_down
+release lime pentagon,put_down
+release p3,put_down
+release navy pentagon,put_down
+release r5,put_down
+release l5,put_down
+release olive pentagon,put_down
+
+put the item down,put_down
+put c1 down,put_down
+put the object down,put_down
+put it down now,put_down
+just put it down,put_down
+please put it down,put_down
+
+put the item down on the table,place
+put c1 down on b2,place
+put the red square down on the ground,place
+put the cube down on the box,place
+place it down on b3,place
+
+release c1,put_down
+release the object,put_down
+release the item in your hand,put_down
+release whatever you're holding,put_down
+release c2,put_down
+
+let go of c1,put_down
+let go of the object,put_down
+let go of the cube,put_down
+let go of whatever you're holding,put_down
+let go of b2,put_down
+
+free c1,put_down
+drop c1,put_down
+
+stop holding c1,put_down
+stop holding the object,put_down
+stop holding and drop it,put_down
+stop holding the cube,put_down
+stop holding whatever you're holding,put_down
+stop holding b2,put_down
+
+pile the cubes together,place
+pile objects together,place
+make a pile of cubes,place
+group the objects together,place
+group the cubes,place
+stack items together,place
+build a pile,place
+collect objects together,place
+
+put c1 down,put_down
+put c1 down on b2,place
+put the cube down,put_down
+put the cube down on the table,place
+put the object down,put_down
+put the object down on the box,place
+
+stop holding c1,put_down
+stop holding the cube,put_down
+stop holding and release it,put_down
+stop holding and drop it,put_down
+stop holding the object,put_down
+
+do not hold c1,put_down
+no longer hold the object,put_down
+release everything,put_down
+drop everything you are holding,put_down
+you can let go now,put_down
