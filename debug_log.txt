@@ -1,0 +1,400 @@
+INPUT: put the blue triangle on area a
+PARSER: {'intent': 'place', 'confidence': 0.9947040677070618, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('area', 'B-DEST'), ('a', 'B-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'area a', 'color': None, 'shape': None}, 'zone': 'area a'}
+
+
+INPUT: put the blue triangle on the area a
+PARSER: {'intent': 'place', 'confidence': 0.9945937991142273, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('area', 'B-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'area', 'color': None, 'shape': None}, 'zone': 'area'}
+
+
+INPUT: put the blue triangle on the green circle
+PARSER: {'intent': 'place', 'confidence': 0.9947319030761719, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ'), ('circle', 'I-OBJ')], 'destination': [('green', 'B-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'circle'}, 'y': {'name': 'green', 'color': None, 'shape': None}, 'zone': 'green'}
+
+
+INPUT: put the blue triangle on the green circle
+PARSER: {'intent': 'place', 'confidence': 0.9947319030761719, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ'), ('circle', 'I-OBJ')], 'destination': [('green', 'B-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'circle'}, 'y': {'name': 'green', 'color': None, 'shape': None}, 'zone': 'green'}
+
+
+mx: ['l2']
+my: ['c2', 'b3', 'c4', 'l2', 'c1', 'b2', 'l1', 's1', 'c3', 'p1', 'r1', 's2', 'l3']
+
+
+
+INPUT: put the blue triangle on the green circle
+PARSER: {'intent': 'place', 'confidence': 0.9947319030761719, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ'), ('circle', 'I-OBJ')], 'destination': [('green', 'B-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'circle'}, 'y': {'name': 'green', 'color': None, 'shape': None}, 'zone': 'green'}
+
+
+mx: ['l2']
+my: (None, None, 'green')
+
+
+
+INPUT: put the blue triangle on the green circle
+PARSER: {'intent': 'place', 'confidence': 0.9947319030761719, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('green', 'B-DEST'), ('circle', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'green circle', 'color': None, 'shape': None}, 'zone': 'green circle'}
+
+
+mx: ['p1']
+my: (None, None, 'green circle')
+
+
+
+INPUT: put the blue triangle on the green circle
+PARSER: {'intent': 'place', 'confidence': 0.9947319030761719, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('green', 'B-DEST'), ('circle', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+mx: ['p1']
+my: (None, None, '')
+
+
+
+INPUT: put the blue triangle on the green circle
+PARSER: {'intent': 'place', 'confidence': 0.9947319030761719, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('green', 'B-DEST'), ('circle', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': 'green', 'shape': 'circle'}, 'zone': ''}
+
+
+mx: ['p1']
+my: ('green', 'circle', '')
+
+
+
+INPUT: put the blue triangle on area a
+PARSER: {'intent': 'place', 'confidence': 0.9947040677070618, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('area', 'B-DEST'), ('a', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'area a', 'color': None, 'shape': None}, 'zone': 'area a'}
+
+
+INPUT: put the blue triangle on the green circle
+PARSER: {'intent': 'place', 'confidence': 0.9947319030761719, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('green', 'B-DEST'), ('circle', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': 'green', 'shape': 'circle'}, 'zone': ''}
+
+
+mx: ['p1']
+my: ('green', 'circle', '')
+
+
+
+INPUT: put the blue triangle on area a
+PARSER: {'intent': 'place', 'confidence': 0.9947040677070618, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('area', 'B-DEST'), ('a', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'shelf', 'color': None, 'shape': None}, 'zone': 'shelf'}
+
+
+INPUT: pick up the triangle
+PARSER: {'intent': 'pick_up', 'confidence': 0.9881929755210876, 'object': [('triangle', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': '', 'color': None, 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: pick up c2
+PARSER: {'intent': 'pick_up', 'confidence': 0.988000214099884, 'object': [('c2', 'B-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': 'c2', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put ut down on the cargo ship
+PARSER: {'intent': 'place', 'confidence': 0.9442489743232727, 'object': [('ut', 'B-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': 'ut', 'color': None, 'shape': None}, 'y': {'name': 'ship', 'color': None, 'shape': None}, 'zone': 'ship'}
+
+
+INPUT: put it whereever
+PARSER: {'intent': 'put_down', 'confidence': 0.9786044359207153, 'object': [], 'destination': [], 'relation': 'whereever'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: alright put it on c4
+PARSER: {'intent': 'put_down', 'confidence': 0.8769964575767517, 'object': [], 'destination': [('c4', 'B-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': None, 'shape': None}, 'y': {'name': 'c4', 'color': None, 'shape': None}, 'zone': 'c4'}
+
+
+INPUT: bro put it on c4
+PARSER: {'intent': 'place', 'confidence': 0.9495383501052856, 'object': [], 'destination': [('c4', 'B-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': None, 'shape': None}, 'y': {'name': 'c4', 'color': None, 'shape': None}, 'zone': 'c4'}
+
+
+mx: ['c2', 'b3', 'c4', 'l2', 'c1', 'b2', 'l1', 's1', 'c3', 'p1', 'r1', 's2', 'l3']
+my: (None, None, 'c4')
+
+
+
+INPUT: c4
+PARSER: {'intent': 'put_down', 'confidence': 0.9597007632255554, 'object': [('c4', 'B-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': 'c4', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put it on cargo ship 
+PARSER: {'intent': 'place', 'confidence': 0.9784104228019714, 'object': [], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': None, 'shape': None}, 'y': {'name': 'ship', 'color': None, 'shape': None}, 'zone': 'ship'}
+
+
+INPUT: put it on the cargo ship c4
+PARSER: {'intent': 'place', 'confidence': 0.9838563203811646, 'object': [('c4', 'B-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': 'c4', 'color': None, 'shape': None}, 'y': {'name': 'ship', 'color': None, 'shape': None}, 'zone': 'ship'}
+
+
+INPUT: put it ddown
+PARSER: {'intent': 'put_down', 'confidence': 0.9857500791549683, 'object': [('ddown', 'B-OBJ')], 'destination': [], 'relation': 'it'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': 'ddown', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put it down bitch
+PARSER: {'intent': 'put_down', 'confidence': 0.9889954328536987, 'object': [], 'destination': [('bitch', 'B-DEST')], 'relation': 'down'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': None, 'shape': None}, 'y': {'name': 'bitch', 'color': None, 'shape': None}, 'zone': 'bitch'}
+
+
+INPUT: HOW DO I PUT DOWN\
+PARSER: {'intent': 'put_down', 'confidence': 0.9876977801322937, 'object': [('DOWN\\', 'B-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': 'down\\', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put the green triangle down
+PARSER: {'intent': 'put_down', 'confidence': 0.9908401370048523, 'object': [('green', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [], 'relation': 'down'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'green', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: now pick it up
+PARSER: {'intent': 'pick_up', 'confidence': 0.936428427696228, 'object': [], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': '', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: pick up pentagon
+PARSER: {'intent': 'pick_up', 'confidence': 0.98797208070755, 'object': [('pentagon', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': '', 'color': None, 'shape': 'pentagon'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: the s1 pentagon
+PARSER: {'intent': 'pick_up', 'confidence': 0.8959649205207825, 'object': [('s1', 'B-OBJ')], 'destination': [('pentagon', 'I-DEST')], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': 's1', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': 'pentagon'}, 'zone': ''}
+
+
+INPUT: now put it down on loading area a\
+PARSER: {'intent': 'place', 'confidence': 0.6619536876678467, 'object': [], 'destination': [('loading', 'B-DEST'), ('area', 'B-DEST'), ('a\\', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': None, 'shape': None}, 'y': {'name': 'loading area a\\', 'color': None, 'shape': None}, 'zone': 'loading area a\\'}
+
+
+mx: ['c2', 'b3', 'c4', 'l2', 'c1', 'b2', 'l1', 's1', 'c3', 'p1', 'r1', 's2', 'l3']
+my: (None, None, 'loading area a\\')
+
+
+
+INPUT: you stupid
+PARSER: {'intent': 'put_down', 'confidence': 0.6206265091896057, 'object': [('stupid', 'B-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': 'stupid', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put the pentagon on loading area a
+PARSER: {'intent': 'place', 'confidence': 0.994361400604248, 'object': [('pentagon', 'I-OBJ')], 'destination': [('loading', 'B-DEST'), ('area', 'B-DEST'), ('a', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': None, 'shape': 'pentagon'}, 'y': {'name': 'loading area a', 'color': None, 'shape': None}, 'zone': 'loading area a'}
+
+
+mx: ['s1', 's2']
+my: (None, None, 'loading area a')
+
+
+
+INPUT: s1\
+PARSER: {'intent': 'put_down', 'confidence': 0.9376952648162842, 'object': [('s1\\', 'B-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': 's1\\', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put the pentagon the crane is holding on loading area a
+PARSER: {'intent': 'place', 'confidence': 0.9756911396980286, 'object': [('pentagon', 'I-OBJ')], 'destination': [('crane', 'B-DEST'), ('loading', 'B-DEST'), ('area', 'B-DEST'), ('a', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': None, 'shape': 'pentagon'}, 'y': {'name': 'crane loading area a', 'color': None, 'shape': None}, 'zone': 'crane loading area a'}
+
+
+mx: ['s1', 's2']
+my: (None, None, 'crane loading area a')
+
+
+
+INPUT: put the kot down slowly
+PARSER: {'intent': 'put_down', 'confidence': 0.9908649325370789, 'object': [('kot', 'B-OBJ')], 'destination': [], 'relation': 'down'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': 'kot', 'color': None, 'shape': None}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put th yellow pentagon on loading zone b\
+PARSER: {'intent': 'place', 'confidence': 0.9947177767753601, 'object': [('th', 'B-OBJ'), ('yellow', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [('loading', 'B-DEST'), ('zone', 'B-DEST'), ('b\\', 'B-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': 'th', 'color': 'yellow', 'shape': 'pentagon'}, 'y': {'name': 'loading zone b\\', 'color': None, 'shape': None}, 'zone': 'loading zone b\\'}
+
+
+mx: ['s1']
+my: (None, None, 'loading zone b\\')
+
+
+
+INPUT: put th yellow pentagon on loading area b
+PARSER: {'intent': 'place', 'confidence': 0.9946478009223938, 'object': [('th', 'B-OBJ'), ('yellow', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [('loading', 'B-DEST'), ('area', 'B-DEST'), ('b', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': 'th', 'color': 'yellow', 'shape': 'pentagon'}, 'y': {'name': 'loading area b', 'color': None, 'shape': None}, 'zone': 'loading area b'}
+
+
+mx: ['s1']
+my: (None, None, 'loading area b')
+
+
+
+INPUT: put the yellow pentagon on loading area b
+PARSER: {'intent': 'place', 'confidence': 0.9947139620780945, 'object': [('yellow', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [('loading', 'B-DEST'), ('area', 'B-DEST'), ('b', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'yellow', 'shape': 'pentagon'}, 'y': {'name': 'loading area b', 'color': None, 'shape': None}, 'zone': 'loading area b'}
+
+
+mx: ['s1']
+my: (None, None, 'loading area b')
+
+
+
+INPUT: put the yellow pentagon down
+PARSER: {'intent': 'put_down', 'confidence': 0.9905319213867188, 'object': [('yellow', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [], 'relation': 'down'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'yellow', 'shape': 'pentagon'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put the yellow pentagon on loading area b
+PARSER: {'intent': 'place', 'confidence': 0.9947139620780945, 'object': [('yellow', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [('loading', 'B-DEST'), ('area', 'B-DEST'), ('b', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'yellow', 'shape': 'pentagon'}, 'y': {'name': 'loading area b', 'color': None, 'shape': None}, 'zone': 'loading area b'}
+
+
+mx: ['s1']
+my: (None, None, 'loading area b')
+
+
+
+INPUT: put the blue triangle on the yellow square
+PARSER: {'intent': 'place', 'confidence': 0.9947834610939026, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('yellow', 'B-DEST'), ('square', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': 'yellow', 'shape': 'square'}, 'zone': ''}
+
+
+mx: ['p1']
+my: ('yellow', 'square', '')
+
+
+
+INPUT: put the red pentagon on the blue triangle
+PARSER: {'intent': 'place', 'confidence': 0.9948315620422363, 'object': [('red', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [('blue', 'B-DEST'), ('triangle', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'red', 'shape': 'pentagon'}, 'y': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'zone': ''}
+
+
+mx: ['s2']
+my: ('blue', 'triangle', '')
+
+
+
+INPUT: put down the red pentagon
+PARSER: {'intent': 'put_down', 'confidence': 0.9782007932662964, 'object': [('red', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'red', 'shape': 'pentagon'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put the green circle on loading area a
+PARSER: {'intent': 'place', 'confidence': 0.9947181344032288, 'object': [('green', 'B-OBJ'), ('circle', 'I-OBJ')], 'destination': [('loading', 'B-DEST'), ('area', 'B-DEST'), ('a', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'green', 'shape': 'circle'}, 'y': {'name': 'loading area a', 'color': None, 'shape': None}, 'zone': 'loading area a'}
+
+
+mx: ['l3']
+my: (None, None, 'loading area a')
+
+
+
+INPUT: put the green circle on area a
+PARSER: {'intent': 'place', 'confidence': 0.9948307871818542, 'object': [('green', 'B-OBJ'), ('circle', 'I-OBJ')], 'destination': [('area', 'B-DEST'), ('a', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'green', 'shape': 'circle'}, 'y': {'name': 'shelf', 'color': None, 'shape': None}, 'zone': 'shelf'}
+
+
+INPUT: put the yellow pentagon on area b
+PARSER: {'intent': 'place', 'confidence': 0.9948446750640869, 'object': [('yellow', 'B-OBJ'), ('pentagon', 'I-OBJ')], 'destination': [('area', 'B-DEST'), ('b', 'I-DEST')], 'relation': 'on'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'yellow', 'shape': 'pentagon'}, 'y': {'name': 'docks', 'color': None, 'shape': None}, 'zone': 'docks'}
+
+
+INPUT: put the green circle on the green triangle
+PARSER: {'intent': 'place', 'confidence': 0.994592010974884, 'object': [('green', 'B-OBJ'), ('circle', 'I-OBJ')], 'destination': [('green', 'B-DEST'), ('triangle', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'green', 'shape': 'circle'}, 'y': {'name': '', 'color': 'green', 'shape': 'triangle'}, 'zone': ''}
+
+
+mx: ['l3']
+my: ('green', 'triangle', '')
+
+
+
+INPUT: put the blue square on the cargo ship
+PARSER: {'intent': 'place', 'confidence': 0.994494616985321, 'object': [('blue', 'B-OBJ'), ('square', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'square'}, 'y': {'name': 'ship', 'color': None, 'shape': None}, 'zone': 'ship'}
+
+
+INPUT: um, could you put the blue triangle in the cargo ship?
+PARSER: {'intent': 'put_down', 'confidence': 0.6020975112915039, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship?', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'cargo ship?', 'color': None, 'shape': None}, 'zone': 'cargo ship?'}
+
+
+INPUT: um, could you put the blue triangle in area a
+PARSER: {'intent': 'put_down', 'confidence': 0.5519726276397705, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('area', 'B-DEST'), ('a', 'I-DEST')], 'relation': 'in'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'area a', 'color': None, 'shape': None}, 'zone': 'area a'}
+
+
+INPUT: could you uh put the blue triangle in the cargo ship?
+PARSER: {'intent': 'put_down', 'confidence': 0.534281849861145, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship?', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'cargo ship?', 'color': None, 'shape': None}, 'zone': 'cargo ship?'}
+
+
+INPUT: could you uh put the blue triangle in the cargo ship
+PARSER: {'intent': 'put_down', 'confidence': 0.6047272086143494, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'cargo ship', 'color': None, 'shape': None}, 'zone': 'cargo ship'}
+
+
+INPUT: uh put the blue triangle in the cargo ship
+PARSER: {'intent': 'place', 'confidence': 0.982879102230072, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'ship', 'color': None, 'shape': None}, 'zone': 'ship'}
+
+
+INPUT: can you uh put the blue triangle in the cargo ship
+PARSER: {'intent': 'place', 'confidence': 0.688643217086792, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'ship', 'color': None, 'shape': None}, 'zone': 'ship'}
+
+
+INPUT: can you uh put the blue triangle in the cargo ship?
+PARSER: {'intent': 'place', 'confidence': 0.5588470101356506, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship?', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_ON', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'cargo ship?', 'color': None, 'shape': None}, 'zone': 'cargo ship?'}
+
+
+mx: ['p1']
+my: (None, None, 'cargo ship?')
+
+
+
+INPUT: put the blue triangle
+PARSER: {'intent': 'put_down', 'confidence': 0.6338171362876892, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put down blue triangle
+PARSER: {'intent': 'put_down', 'confidence': 0.9869131445884705, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: please pick up the blue triangle slowly
+PARSER: {'intent': 'pick_up', 'confidence': 0.9787600636482239, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: put uh um the blue circle in area b
+PARSER: {'intent': 'place', 'confidence': 0.990103006362915, 'object': [('blue', 'B-OBJ'), ('circle', 'I-OBJ')], 'destination': [('area', 'B-DEST'), ('b', 'I-DEST')], 'relation': 'in'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'circle'}, 'y': {'name': 'docks', 'color': None, 'shape': None}, 'zone': 'docks'}
+
+
+INPUT: can you uh put the blue triangle in the cargo ship
+PARSER: {'intent': 'place', 'confidence': 0.688643217086792, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [('cargo', 'B-DEST'), ('ship', 'I-DEST')], 'relation': 'the'}
+CONVERTOR: {'intent': 'PUT_IN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': 'ship', 'color': None, 'shape': None}, 'zone': 'ship'}
+
+
+INPUT: please pick up the blue triangle slowly
+PARSER: {'intent': 'pick_up', 'confidence': 0.9787600636482239, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: please pick up the blue triangle slowly
+PARSER: {'intent': 'pick_up', 'confidence': 0.9787600636482239, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PICKUP', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
+INPUT: please put down the blue triangle slowly
+PARSER: {'intent': 'put_down', 'confidence': 0.9833691716194153, 'object': [('blue', 'B-OBJ'), ('triangle', 'I-OBJ')], 'destination': [], 'relation': None}
+CONVERTOR: {'intent': 'PUT_DOWN', 'x': {'name': '', 'color': 'blue', 'shape': 'triangle'}, 'y': {'name': '', 'color': None, 'shape': None}, 'zone': ''}
+
+
