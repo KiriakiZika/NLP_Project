@@ -121,3 +121,47 @@ move c1 on area a,O B-OBJ B-REL B-DEST I-DEST
 put c2 in area b,O B-OBJ B-REL B-DEST I-DEST
 stack c3 onto cargo ship,O B-OBJ B-REL B-DEST I-DEST
 place c4 into storage bay,O B-OBJ B-REL B-DEST I-DEST I-DEST
+
+put red square on blue box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green triangle on yellow cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack blue cube on red block,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+place pink square on green triangle,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+put yellow block on blue square,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move orange circle on purple cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack small red cube on large blue block,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+place green square on yellow box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+put blue triangle on red circle,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move pink block on orange square,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+
+put red square in area a,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green triangle in area b,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+place blue cube in cargo ship,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack yellow block in loading area,O B-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+put pink square in storage zone,O B-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+move orange cube in dock area,O B-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+place red triangle in area a,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+put green block in area b,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move blue square in cargo bay,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack small cube in storage area,O B-OBJ I-OBJ I-OBJ B-REL B-DEST I-DEST I-DEST
+
+put red cube on blue box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move green square on yellow cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack blue triangle on red square,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+place pink block on green cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+put yellow circle on orange box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move red square on green block,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+stack blue cube on pink triangle,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+place green block on yellow cube,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+put orange square on blue triangle,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+move purple cube on red box,O B-OBJ I-OBJ B-REL B-DEST I-DEST
+
+put red square in box,O B-OBJ I-OBJ B-REL B-DEST
+move green triangle in container,O B-OBJ I-OBJ B-REL B-DEST
+place blue cube in crate,O B-OBJ I-OBJ B-REL B-DEST
+stack yellow block in box,O B-OBJ I-OBJ B-REL B-DEST
+put pink square in bin,O B-OBJ I-OBJ B-REL B-DEST
+move orange cube in storage,O B-OBJ I-OBJ B-REL B-DEST
+place red triangle in container,O B-OBJ I-OBJ B-REL B-DEST
+put green block in crate,O B-OBJ I-OBJ B-REL B-DEST
+move blue square in box,O B-OBJ I-OBJ B-REL B-DEST
+stack small cube in bin,O B-OBJ I-OBJ I-OBJ B-REL B-DEST
